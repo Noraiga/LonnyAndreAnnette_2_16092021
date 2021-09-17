@@ -1,0 +1,555 @@
+@font-face {
+    font-family: "Raleway";
+    src: url('Raleway/Raleway-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url('Raleway/Raleway-Italic-VariableFont_wght.ttf');
+}
+
+.container {
+    width: 1600px;
+    font-family: "Raleway", Helvetica, sans-serif;
+}
+/**************** HEAD ******************/
+header {
+    width: 1320px;
+}
+
+#reserviaIcon {
+    display: flex;
+}
+
+#imgReservia {
+    height: 10%;
+    width: 10%;
+    margin-top: 75px;
+    display: flex;
+    justify-content: start;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 50%;
+    font-size: 20px;
+}
+
+.nav a {
+    height: 120px;
+    width: 130px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.nav1et2 {
+    text-decoration-line: none;
+    color: black;
+}
+
+.nav1et2:hover {
+    color: #0065FC;
+    transition-duration: 0.2s;
+    padding-top: value;
+    border-top-style: solid;
+}
+
+.nav3 {
+    text-decoration-line: none;
+    color: #0065FC;
+}
+
+.nav3:hover {
+    color: lightseagreen;
+    transition-duration: 0.2s;
+    padding-top: value;
+    border-top-style: solid;
+}
+
+.titreR {
+    font-size: 25px;
+}
+
+#texteG {
+    font-size: 20px;
+}
+
+/********************* SEARCH BAR ***********************/
+
+#fasMarker {
+    border: solid #F2F2F2 14px;
+    border-radius: 14px 0 0 14px;
+    background-color: #F2F2F2;
+}
+
+#barreSearch {
+    display: flex;
+    border-radius: 25px;
+    width: 500px;
+}
+
+#iSearch {
+    width: 200px;
+    border: solid #F2F2F2;
+    border-right: none;
+    font-weight: bold;
+}
+
+#btn1 {
+    background-color: #0065FC;
+    border-style: none;
+    color: white;
+    margin-left: 0px;
+    border-radius: 0 14px 14px 0;
+    width: 110px;
+    font-weight: bold;
+}
+
+#btn1:hover {
+    background-color: lightseagreen;
+    transition-duration: 1s;
+}
+
+
+/****************** FILTER ********************/
+
+.filter {
+    display: grid;
+    grid-template-columns: 60px 237px 237px 237px 2fr;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+#filterText {
+    display: grid;
+    align-self: center;
+    margin: 0;
+}
+
+#filter2 {
+    height: 60px;
+    border-radius: 35px;
+    text-decoration-line: unset;
+    border-color: lightgray;
+    border-style: solid;
+    border-left: 0 none;
+}
+
+.filter3 {
+    width: 270px;
+}
+
+#filter2:hover {
+    color: lightseagreen;
+    transition-duration: 1s;
+}
+
+a {
+    margin: 20px;
+    color: black;
+}
+
+a .fas {
+    color: rgb(0, 102, 255);
+}
+
+#fasFilter {
+    border: solid #DEEBFF 18px;
+    border-radius: 35px;
+    background-color: #DEEBFF;
+    margin-right: 12px;   
+}
+
+#infoFilter {
+    display: flex;
+}
+
+#infosize {
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 0;
+    font-size: 16px;
+}
+
+#boxInfo {
+    width: 35px;
+    height: 35px;
+    border: solid;
+    border-color: #F2F2F2;
+    border-radius: 18px;
+}
+#infoImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;
+    color: #0065FC;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+/*************** STARS RATING ***************/
+
+
+#blueStars .fas{
+    color: #0065FC;
+}
+
+.far {
+    border: none;
+    color: #F2F2F2;
+}
+
+/**************** Corps *****************/
+
+#Gridcorps {
+    display: grid;
+    grid-gap: 30px;
+    width: 1320px;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 700px;
+}
+
+#Corps {
+    margin-top: 30px;
+    display: grid;
+    background-color: #F2F2F2;
+    justify-content: space-evenly;
+    border-radius: 14px;
+}
+
+h6 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+
+h4 {
+    margin-left: 30px;
+    margin-top: 30px;
+    height: 42px;
+}
+
+#titleH4 {
+    margin-left: 20px;
+}
+
+#hebergement {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 10px;
+    width: 830px;
+    background-color: #F2F2F2;
+    border-radius: 14px;
+}
+
+#hebergement a {
+    text-decoration: none;
+}
+
+
+.AlaC {
+    display: grid;
+    justify-content: center;
+    height: 210px;
+    border-radius: 18px;
+    box-shadow: 5px 7px 10px rgb(207, 207, 207);
+    background-color: white;
+}
+
+#Cannebiere {
+    border-radius: 14px 14px 0 0;
+    width: 220px;
+    max-height: 115px;
+    margin-top: 5px;
+}
+
+.HduP {
+    display: grid;
+    justify-content: center;
+    height: 210px;
+    border-radius: 18px;
+    box-shadow: 5px 7px 10px rgb(207, 207, 207);
+    background-color: white;
+}
+
+#Port {
+    border-radius: 14px 14px 0 0;
+    width: 220px;
+    max-height: 115px;
+    margin-top: 5px;
+}
+
+.HlesM {
+    display: grid;
+    justify-content: center;
+    height: 210px;
+    border-radius: 18px;
+    box-shadow: 5px 7px 10px rgb(207, 207, 207);
+    background-color: white;
+}
+
+#Mouettes {
+    border-radius: 14px 14px 0 0;
+    width: 220px;
+    max-height: 115px;
+    margin-top: 5px;
+}
+
+.HdelaM {
+    display: grid;
+    justify-content: center;
+    height: 210px;
+    border-radius: 18px;
+    box-shadow: 5px 7px 10px rgb(207, 207, 207);
+    background-color: white;
+}
+
+#Mer {
+    border-radius: 14px 14px 0 0;
+    width: 220px;
+    max-height: 115px;
+    margin-top: 5px;
+}
+
+.AleP {
+    display: grid;
+    justify-content: center;
+    height: 210px;
+    border-radius: 18px;
+    box-shadow: 5px 7px 10px rgb(207, 207, 207);
+    background-color: white;
+}
+
+#Panier {
+    border-radius: 14px 14px 0 0;
+    width: 220px;
+    max-height: 115px;
+    margin-top: 5px;
+}
+
+.HcA {
+    display: grid;
+    justify-content: center;
+    height: 210px;
+    border-radius: 18px;
+    box-shadow: 5px 7px 10px rgb(207, 207, 207);
+    background-color: white;
+}
+
+#Amina {
+    border-radius: 14px 14px 0 0;
+    width: 220px;
+    max-height: 115px;
+    margin-top: 5px;
+}
+
+.textAdapt {
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+#chart {
+    margin-left: 50px;
+}
+
+#Popu {
+    display: flex;
+    justify-content: center;
+}
+
+
+#Tpopulaire {
+    display: grid;
+    margin-top: 30px;
+    background-color: #F2F2F2;
+    width: 360px;
+    border-radius: 14px;
+    justify-content: center;
+}
+
+#populaire {  
+    display: grid;
+    grid-gap: 25px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 160px 160px 160px;
+    justify-content: center;
+    align-items: center;
+}
+
+.CatéPopu {
+    display: grid;
+    margin-left: 10px;
+    border-radius: 14px;
+    box-shadow: 5px 7px 10px rgb(207, 207, 207);
+    background-color: white;
+    width: 90%;
+    height: 155px;
+}
+
+.Box {
+    display: flex;
+    margin: 10px;
+    height: 135px;
+}
+.boxSepa {
+    margin-left: 20px;
+    height: 135px;
+}
+
+#Soleil {
+    border-radius: 14px 0 0 14px;
+    width: 135px;
+    max-height: 165px;
+    display: grid;
+    justify-content: left;
+}
+
+
+#Eau {
+    border-radius: 14px 0 0 14px;
+    max-width: 135px;
+    max-height: 165px;
+}
+
+#BleuBlanc {
+    border-radius: 14px 0 0 14px;
+    width: 160px;
+    max-height: 165px;
+}
+
+/******************* ACTIVITY ***************************/
+
+#Activites {
+    margin-top: 50px;
+    width: 1320px;
+}
+
+#Gridactivites {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 25px;
+}
+
+.LVP {
+    display: grid;
+    border-radius: 14px;
+    box-shadow: 5px 7px 10px rgb(207, 207, 207);
+    max-height: 430px;
+    width: 280px;
+    background-color: white;
+}
+
+#VieuxPort {
+    border-radius: 14px 14px 0 0;
+    width: 280px;
+    height: 380px;
+}
+
+.PNdesC {
+    display: grid;
+    border-radius: 14px;
+    box-shadow: 5px 7px 10px rgb(207, 207, 207);
+    max-height: 430px;
+    width: 280px;
+    background-color: white;
+}
+
+#Calanques {
+    border-radius: 14px 14px 0 0;
+    width: 280px;
+    height: 380px;
+}
+
+.Fort {
+    display: grid;
+    border-radius: 14px;
+    box-shadow: 5px 7px 10px rgb(207, 207, 207);
+    background-color: white;
+    height: 220px;
+    width: 275px;
+}
+
+#Pomegues {
+    display: grid;
+    border-radius: 14px 14px 0 0;
+    width: 275px;
+    height: 170px;
+}
+
+.IdF {
+    display: grid;
+    border-radius: 14px;
+    box-shadow: 5px 7px 10px rgb(207, 207, 207);
+    background-color: white;
+    height: 165px;
+    width: 275px;
+    margin-top: 40px;
+}
+
+#Frioul {
+    display: grid;
+    border-radius: 14px 14px 0 0;
+    width: 275px;
+    height: 115px;
+}
+
+.Fbox {
+    display: grid;
+}
+
+.PLongC {
+    display: grid;
+    border-radius: 14px;
+    box-shadow: 5px 7px 10px rgb(207, 207, 207);
+    background-color: white;
+    height: 200px;
+    width: 275px;
+    margin-top: 40px;
+}
+
+#Longchamp {
+    display: grid;
+    border-radius: 14px 14px 0 0;
+    height: 150px;
+    width: 275px;
+}
+
+.NDLG {
+    display: grid;
+    border-radius: 14px;
+    box-shadow: 5px 7px 10px rgb(207, 207, 207);
+    background-color: white;
+    height: 190px;
+    width: 275px;
+}
+
+#Garde {
+    display: grid;
+    border-radius: 14px 14px 0 0;
+    height: 140px;
+    width: 275px;
+}
+
+/***********************************/
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #F2F2F2;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height: 190px;
+}
+
+#footerBox {
+    width: 370px;
+    display: grid;
+    justify-content: center;
+    align-items: space-evenly;
+    margin-top: 20px;
+}
