@@ -8,6 +8,17 @@
     src: url('Raleway/Raleway-Italic-VariableFont_wght.ttf');
 }
 
+/**************** MEDIA QUERIES ***************/
+
+
+
+/*********************************************/
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
 .container {
     width: 1600px;
     font-family: "Raleway", Helvetica, sans-serif;
@@ -52,7 +63,6 @@ header {
 .nav1et2:hover {
     color: #0065FC;
     transition-duration: 0.2s;
-    padding-top: value;
     border-top-style: solid;
 }
 
@@ -64,7 +74,6 @@ header {
 .nav3:hover {
     color: lightseagreen;
     transition-duration: 0.2s;
-    padding-top: value;
     border-top-style: solid;
 }
 
@@ -117,18 +126,17 @@ header {
 
 .filter {
     display: grid;
-    grid-template-columns: 60px 237px 237px 237px 2fr;
+    grid-template-columns: 60px 237px 237px 237px 300px;
     margin-top: 15px;
     font-size: 20px;
 }
 
 #filterText {
-    display: grid;
     align-self: center;
     margin: 0;
 }
 
-#filter2 {
+.filter2 {
     height: 60px;
     border-radius: 35px;
     text-decoration-line: unset;
@@ -155,7 +163,7 @@ a .fas {
     color: rgb(0, 102, 255);
 }
 
-#fasFilter {
+.fasFilter {
     border: solid #DEEBFF 18px;
     border-radius: 35px;
     background-color: #DEEBFF;
@@ -193,7 +201,7 @@ a .fas {
 /*************** STARS RATING ***************/
 
 
-#blueStars .fas{
+.blueStars .fas{
     color: #0065FC;
 }
 
@@ -207,7 +215,7 @@ a .fas {
 #Gridcorps {
     display: grid;
     grid-gap: 30px;
-    width: 1320px;
+    width: auto;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 700px;
 }
@@ -546,10 +554,273 @@ footer {
     height: 190px;
 }
 
-#footerBox {
+.footerBox {
     width: 370px;
     display: grid;
     justify-content: center;
-    align-items: space-evenly;
+    align-items: center;
     margin-top: 20px;
+}
+
+@media screen and (max-width: 768px){
+
+    body {
+        max-width: 780px;
+    }
+
+    .container {
+        padding: 0px;
+        max-width: 768px;
+        }
+    
+    #reserviaIcon {
+        width: 100%;
+    }
+
+    #imgReservia {
+        margin-bottom: 10px;
+        margin-left: 1em;
+        height: 45%;
+        width: 25%;
+    }
+
+    header {
+        width: 100%;
+    }
+    .nav {
+        margin: auto;
+        margin-bottom: 0;
+        margin-right: 1.5em;
+        width: 100%;
+        display: flex;
+        justify-content: end;
+    }
+    
+    .nav a {
+        display: flex;
+        margin-bottom: 25px;
+        height: auto;
+        width: auto;
+    }
+
+    .titreR {
+        display: flex;
+        justify-content: center;
+    }
+
+    #texteG {
+        display: flex;
+        justify-content: center;
+    }
+
+    #barreSearch {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .filter {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        margin: 25px;
+    }
+
+    #filterText {
+        display: none;
+    }
+
+    .filter2 {
+        width: 290px;
+    }
+
+    #infoFilter {
+        display: flex;
+        justify-content: center;
+    }
+
+    #Gridcorps {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+    }
+
+    #titleH4 {
+        display: flex;
+        justify-content: center;
+    }
+
+    h6 {
+        display: flex;
+        justify-content: center;
+    }
+
+    #Gridcorps {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    #Corps {
+        width: 738px;
+    }
+
+    #hebergement {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        max-width: 738px;
+    }
+
+    #Cannebiere {
+        width: 315px;
+    }
+
+    #Port {
+        width: 315px;
+    }
+
+    #Mouettes {
+        width: 315px;
+    }
+
+    #Mer {
+        width: 315px;
+    }
+
+    #Panier {
+        width: 315px;
+    }
+
+    #Amina {
+        width: 315px;
+    }
+
+    h5 {
+        margin-left: 10px;
+    }
+
+    .blueStars {
+        margin-left: 10px;
+    }
+
+    #Tpopulaire {
+        width: auto;
+        height: 650px;
+    }
+
+    #Activites {
+        display: flex;
+        justify-content: center;
+        max-width: 768px;
+    }
+
+    #Gridactivites {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+
+    .LVP {
+        display: grid;
+        height: 210px;
+        width: 340px;
+        border-radius: 18px;
+        box-shadow: 5px 7px 10px rgb(207, 207, 207);
+        background-color: white;
+    }
+    
+    #VieuxPort {
+        border-radius: 14px 14px 0 0;
+        width: 340px;
+        height: 160px;
+    }
+
+    .Fort {
+        display: grid;
+        height: 210px;
+        width: 340px;
+        border-radius: 18px;
+        box-shadow: 5px 7px 10px rgb(207, 207, 207);
+        background-color: white;
+    }
+
+    #Pomegues {
+        border-radius: 14px 14px 0 0;
+        width: 340px;
+        height: 160px;
+    }
+
+    .IdF {
+        display: grid;
+        height: 210px;
+        width: 340px;
+        border-radius: 18px;
+        box-shadow: 5px 7px 10px rgb(207, 207, 207);
+        background-color: white;
+    }
+
+    #Frioul {
+        border-radius: 14px 14px 0 0;
+        width: 340px;
+        height: 160px;
+    }
+
+    .PNdesC {
+        display: grid;
+        height: 210px;
+        width: 340px;
+        border-radius: 18px;
+        box-shadow: 5px 7px 10px rgb(207, 207, 207);
+        background-color: white;
+    }
+
+    #Calanques {
+        border-radius: 14px 14px 0 0;
+        width: 340px;
+        height: 160px;
+    }
+
+    .NDLG {
+        display: grid;
+        height: 210px;
+        width: 340px;
+        border-radius: 18px;
+        box-shadow: 5px 7px 10px rgb(207, 207, 207);
+        background-color: white;
+    }
+
+    #Garde {
+        border-radius: 14px 14px 0 0;
+        width: 340px;
+        height: 160px;
+    }
+
+    .PLongC {
+        display: grid;
+        height: 210px;
+        width: 340px;
+        border-radius: 18px;
+        box-shadow: 5px 7px 10px rgb(207, 207, 207);
+        background-color: white;
+    }
+
+    #Longchamp {
+        border-radius: 14px 14px 0 0;
+        width: 340px;
+        height: 160px;
+    }
+
+    footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        background-color: #F2F2F2;
+        height: auto;
+        width: auto;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .footerBox {
+        width: auto;
+    }
 }
